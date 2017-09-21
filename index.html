@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Admin Team DEMO - Sprint #9</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<img data-src="large.png" style="border: 0; background: 0;">
+				<h2>ADMIN SPRINT #9 DEMO</h2>
+				</section>
+
+				<section>
+				<h2>Overview</h2>
+
+				<ul>
+					<li class="fragment">Domains error handle</li>
+				  <li class="fragment">Keyboard shortcuts</li>
+					<li class="fragment">Features flipping page in Admin Center</li>
+					<li class="fragment">Elasticsearch maintenance page in Admin Center </li>
+				</ul>
+				</section>
+
+
+
+				<section>
+					<h3>Domains error handle</h3>
+					<video controls data-src="domains-demo.ogv"></video>
+				</section>
+				<section>
+					<h3>Keyboard shortcuts</h3>
+					<video controls data-src="ShortcutDemo.webm"></video>
+				</section>
+				<section>
+					<h3>Features flipping page in Admin Center</h3>
+					<video controls data-src="features-flipping.ogv"></video>
+				</section>
+				<section>
+					<h3>Elasticsearch maintenance page in Admin Center</h3>
+					<video controls data-src="elasticsearch-reindex.mp4"></video>
+				</section>
+
+				<section>
+					<h1>Thank You!<h1>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
