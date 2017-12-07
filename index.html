@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Ticketing Team DEMO - Sprint 1</title>
+		<title>Ticketing Team DEMO - Sprint 3</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/white.css">
@@ -26,103 +26,70 @@
 			<div class="slides">
 				<section>
 					<h2>TICKETING</h2>
-					<h3>SPRINT 1 DEMO</h3>
+					<h3>SPRINT #3 DEMO</h3>
 				</section>
 
 				<section>
-					<h2>Overview</h2>
-
-					<ul>
-						<li class="fragment">Team</li>
-					  <li class="fragment">Project</li>
-						<li class="fragment">Demo</li>
-					</ul>
-				</section>
-
-
-
-				<section>
-					<h3>Team</h3>
-					<ul style="font-size: 16px;">
-						<li>
-							<h5>Product owner:</h5>
-							<table>
-								<tr>
-							    <td style="vertical-align: middle;">Quang TRAN</td>
-									<td style="vertical-align: middle;"><a>qtran@linagora.com</a></td>
-							    <td style="vertical-align: middle;"><img data-src="images/qtran.jpg" style="height: 100px; border: 0;"></td>
-							  </tr>
-							</table>
-						</li>
-						<li>
-							<h5>Team members:</h5>
-							<table>
-								<tr>
-							    <td style="vertical-align: middle;">Khac Chien LANG</td>
-									<td style="vertical-align: middle;"><a>kclang@linagora.com</a></td>
-							    <td style="vertical-align: middle;"><img data-src="images/kclang.png" style="height: 100px; border: 0;"></td>
-							  </tr>
-								<tr>
-							    <td style="vertical-align: middle;">Tuan LE CONG</td>
-									<td style="vertical-align: middle;"><a>tlcong@linagora.com</a></td>
-							    <td style="vertical-align: middle;"><img data-src="images/tlcong.jpg" style="height: 100px; border: 0;"></td>
-							  </tr>
-							</table>
-						</li>
-						<li>
-							<h5>Internships:</h5>
-							<a>nsadik@linagora.com</a>, <a>egodard@linagora.com</a>, <a>vbonardot@linagora.com</a> from Télécom Nancy university
-						</li>
-					</ul>
-				</section>
-				<section>
-					<h3>Project</h3>
-					<section style="font-size: 30px;">
-						<ul>
-							<li>Service will be used by Linagora to guarantee the functioning of open source components for customers.</li>
-							<li>Handle and process the support requests of customers.</li>
-							<li>Allows to communicate by e-mail, chat, telephone, videoconference</li>
-						</ul>
-					</section>
-					<section>
-						<h4>Provides a management tool for:</h4>
-						<ul>
-							<li>Organization</li>
-							<li>Entity (Sub organization)</li>
-							<li>Contract</li>
-							<li>Order (Unit Of Work)</li>
-							<li>Softwares</li>
-							<li>Support request (ticket)</li>
-						</ul>
-					</section>
-
+					<h3>Context first...</h3>
+						<table>
+							<tr style="border: 1px solid black;">
+								<td style="vertical-align: middle; border: 1px solid black;">
+									Contract
+								</td>
+								<td style="vertical-align: middle; font-size: 25px;">
+									<table>
+										<tr style="border-bottom: 1px solid black;">
+											<td style="vertical-align: middle; border-right: 1px solid black;">
+												Permission
+											</td>
+											<td>
+												- Submit and view issue <br>
+												- Some or all entities of contract's organization have permission
+											</td>
+										</tr>
+										<tr style="border-bottom: 1px solid black;">
+											<td style="vertical-align: middle; border-right: 1px solid black;">
+												Demand
+											</td>
+											<td>
+												- Agreement beween Linagora and organization about supporting time.<br>
+											  - And will be used as a templete when user submit an issue (next sprint)
+											</td>
+										</tr>
+										<tr>
+											<td style="vertical-align: middle; border-right: 1px solid black;">
+												Software
+											</td>
+											<td>
+												- List software(name, type, versions) which are supported in contract
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
 				</section>
 				<section>
 					<h3>Demo</h3>
 					<section>
 						<ul>
-							<li class="fragment">Create and update user</li>
-						  <li class="fragment">Create and update organization</li>
-							<li class="fragment">Create and update entity</li>
-							<li class="fragment">Create and update contract</li>
+						  <li class="fragment">Handle permissions in contract</li>
+							<li class="fragment">Add demand for contract</li>
+							<li class="fragment">Add software for contract</li>
 						</ul>
 					</section>
 
 					<section>
-						<h3>Create and update user</h3>
-						<video controls data-src="videos/user.webm"></video>
+						<h4>Handle permissions in contract</h4>
+						<video controls data-src="videos/contract_permission.ogv"></video>
 					</section>
 					<section>
-						<h3>Create and update organization</h3>
-						<video controls data-src="videos/organization.webm"></video>
+						<h4>Add demand for contract</h4>
+						<video controls data-src="videos/contract_demand.ogv"></video>
 					</section>
 					<section>
-						<h3>Create and update entity</h3>
-						<video controls data-src="videos/entity.webm"></video>
-					</section>
-					<section>
-						<h3>Create and update contract</h3>
-						<video controls data-src="videos/contract.webm"></video>
+						<h4>Add software for contract</h4>
+						<video controls data-src="videos/contract_software.ogv"></video>
 					</section>
 				</section>
 
